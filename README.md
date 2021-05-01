@@ -13,3 +13,4 @@ https://srmleynek.github.io/run-buddy
 ## Contribution
 Made with ❤️ by Sidney Mleynek
 
+### ©️2019 Run Buddy, Inc
