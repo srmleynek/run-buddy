@@ -1,4 +1,4 @@
-# run-buddy
+# Run Buddy Inc.
 
 ## Purpose
 A Website that offers fitness training services.
@@ -12,3 +12,4 @@ https://srmleynek.github.io/run-buddy
 
 ## Contribution
 Made with ❤️ by Sidney Mleynek
+
