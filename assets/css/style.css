@@ -52,9 +52,9 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
 }
 /* Header End */
 
@@ -92,6 +92,7 @@ footer a {
     display: flex;
     justify-content: center;
     flex-wrap:  wrap;
+    align-items: flex-start;
 }
 
 .hero-form h3 {
@@ -140,7 +141,7 @@ footer a {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -160,7 +161,7 @@ footer a {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -169,15 +170,6 @@ footer a {
     width: 50%;
 }
   
-/* This one used to be primary-border but it wasn't working so I changed it */
-#what-we-do h2, #your-trainers h2 {
-    border-color: #fce138;
-}
-  
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 /* Start Steps */
 .steps { 
     background: #fce138;
@@ -288,6 +280,14 @@ footer a {
     margin-bottom: 35px;
     color: #024e76;
 }
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
 /* Trainer End */
 
 /* Reach out Start */
@@ -356,3 +356,27 @@ footer a {
   font-size: 16px;
 }
 /* Reach out End */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 a {
+    /* this will be applied on any screen smaller than 980px */
+    
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    /* this will be applied on any screen between 768px and 575px */
+    
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 575px */
+    
+  }
+}
