@@ -159,7 +159,7 @@ footer a {
     text-align: center;
 }
 
-  .section-title {
+.section-title {
     font-size: 55px;
     color: #024e76;
     border-bottom: 3px solid;
@@ -167,22 +167,23 @@ footer a {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
-  }
+}
   
-  .primary-border {
+/* This one used to be primary-border but it wasn't working so I changed it */
+#what-we-do h2, #your-trainers h2 {
     border-color: #fce138;
-  }
+}
   
-  .secondary-border {
+.secondary-border {
     border-color: #39a6b2;
-  }
+}
 
-  /* Start Steps */
-  .steps { 
+/* Start Steps */
+.steps { 
     background: #fce138;
-  }
+}
 
-  .step {
+.step {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -191,142 +192,167 @@ footer a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-  }
+}
   
-  .step h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
     flex: 1 30%;
-  }
+}
   
-  .step-text p {
+.step-text p {
     color: #39a6b2;
     font-size: 18px;
-  }
+}
 
-  .step-text h4 {
+.step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-  }
+}
 
-  .step-info {
+.step-info {
     flex: 3 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
+}
 
-  .step-img {
+.step-img {
     flex: 1 12%;
     margin-right: 20px;
-  }
+}
 
-  .step-text {
+.step-text {
     flex: 12;
-  }
+}
 
-  .step-img img {
+.step-img img {
     max-width: 100%;
-  }
-  /* End Steps */
+}
+/* End Steps */
 
-  /* Trainer Start */
-  .trainers {
+/* Trainer Start */
+.trainers {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+}
 
-  .trainer {
+.trainer {
     margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
-  }
+}
 
-  .trainer img {
+.trainer img {
     width: 100%;
-  }
+}
 
-  .trainer-bio {
+.trainer-bio {
     padding: 25px;
     width: 65%;
     line-height: 1.3;
-  }
+}
 
-  .text-left {
+.text-left {
     text-align: left;
   }
   
   .text-right {
     text-align: right;
-  }
+}
 
-  .trainer-bio h3 {
+.trainer-bio h3 {
     font-size: 28px;
-  }
+}
   
-  .trainer-bio h4 {
+.trainer-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
-  }
+}
   
-  .trainer-bio p {
+.trainer-bio p {
     font-size: 17px;
-  }
+}
 
-  .section-title {
+.section-title {
     font-size: 55px;
     display: inline-block;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid #39a6b2;
     margin-bottom: 35px;
     color: #024e76;
-  }
-  /* Trainer End */
+}
+/* Trainer End */
 
-  /* Reach out Start */
+/* Reach out Start */
   .contact {
     background: #024e76;
-  }
+}
 
-  .contact h2 {
+.contact h2 {
     color: #fce138
-  }
+}
 
-  .contact-info iframe {
-    width: 400px;
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info iframe {
     height: 400px;
     display: inline-block;
-  }
+}
 
-  .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
+.contact-info div {
     color: white;
-  }
+}
 
-  .contact-info h3 {
+.contact-info h3 {
     color: #fce138;
     font-size: 32px;
-  }
+}
   
-  .contact-info p, .contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-  }
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: #024e76;
+  width: 100%
+}
   
-  .contact-info a {
-    color: #fce138;
-  }
-  
-  /* Reach out End */
+.contact-form button {
+  width: 100%;
+  border:  none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
+/* Reach out End */
