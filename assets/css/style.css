@@ -256,6 +256,9 @@ section {
 
 .flex-row {
   display: flex;
+  /* added next two because hro heading wasn't centering */
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .trainer-bio h3 {
@@ -360,7 +363,7 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   /* this will be applied on any screen smaller than 980px */
-  header h1 {
+  header {
     padding-bottom: 0;
     justify-content: center;
   }
@@ -394,11 +397,17 @@ section {
   }
 
   .section-title {
-    width: 80%;
+    /* changed from 80% to 100% because in 768, meet trainers scrunched also fixed 4 other headings in 575 */
+    width: 100%;
   }
   
   .trainer {
     flex: 0 70%;
+  }
+
+  /* added this one because trainer bios were scrunched to the left */
+  .trainer-bio {
+    width: 100%
   }
   
   .contact-info iframe{
@@ -438,6 +447,7 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  /* cannot for the life of me make "meet the Trainers" be on one row in 575 */
   /* this will be applied on any screen smaller than 575px */
   .hero-form button {
     width: 100%;
